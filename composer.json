@@ -1,11 +1,11 @@
 {
-    "name": "nogorsolutionsltd/skeleton",
+    "name": "nogorsolutionsltd/auth",
     "description": "A custom skeleton package for laravel",
     "license": "MIT",
     "homepage": "https://www.nogorsolutions.com/",
     "support": {
-        "issues": "https://github.com/Nogor-Solutions-Ltd/skeleton/issues",
-        "source": "https://github.com/Nogor-Solutions-Ltd/skeleton"
+        "issues": "https://github.com/Nogor-Solutions-Ltd/auth/issues",
+        "source": "https://github.com/Nogor-Solutions-Ltd/auth"
     },
     "authors": [{
         "name": "Sarfaraz Muhammad Sajib",
@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "NogorSolutionsLTD\\Skeleton\\": "src"
+            "NogorSolutionsLTD\\Auth\\": "src"
         }
     },
     "extra": {
@@ -26,7 +26,7 @@
         },
         "laravel": {
             "providers": [
-                "NogorSolutionsLTD\\Skeleton\\ServiceProvider"
+                "NogorSolutionsLTD\\Auth\\ServiceProvider"
             ]
         }
     },

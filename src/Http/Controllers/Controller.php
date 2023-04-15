@@ -1,6 +1,6 @@
 <?php
 
-namespace NogorSolutionsLTD\Skeleton\Http\Controllers;
+namespace NogorSolutionsLTD\Auth\Http\Controllers;
 
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as BaseController;

@@ -1,6 +1,6 @@
 <?php
 
-namespace NogorSolutionsLTD\Skeleton;
+namespace NogorSolutionsLTD\Auth;
 
 use Illuminate\Support\Facades\File;
 
