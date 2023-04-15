@@ -47,7 +47,7 @@ class ServiceProvider extends BaseServiceProvider
         $this->publishes([
             __DIR__.'/publish/components' => resource_path('views/components'),
             __DIR__.'/publish/controller' => app_path('Http/Controllers'),
-            __DIR__.'/publish/mail' => app_path('Mail/Controllers'),
+            __DIR__.'/publish/mail' => app_path('Mail'),
         ], 'nogor-solutions-ltd-auth');
     }
 }
