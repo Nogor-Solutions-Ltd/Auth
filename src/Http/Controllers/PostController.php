@@ -1,6 +1,6 @@
 <?php
 
-namespace NogorSolutionsLTD\Skeleton\Http\Controllers;
+namespace NogorSolutionsLTD\Auth\Http\Controllers;
 
 class PostController extends Controller
 {
